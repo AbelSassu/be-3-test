@@ -54,7 +54,7 @@ namespace be_3_test
                     }
                 }
             }
-            else 
+            else
             {
                 lblEmptyCart.Text = "<h3>Il carrello è vuoto</h3>";
             }
@@ -115,6 +115,11 @@ namespace be_3_test
                     LoadCartItems();
                 }
             }
+        }
+        protected void btnClearSession_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            LoadCartItems();
         }
     }
 }
