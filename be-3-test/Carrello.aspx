@@ -9,7 +9,7 @@
         <asp:Repeater ID="rptCartItems" runat="server" OnItemCommand="rptCartItems_ItemCommand">
             <ItemTemplate>
                 <li class="d-flex justify-content-around align-items-center">
-                    <img class="w-25 h-25" src='<%# Eval("Immagine") %>' alt="Product Image" />
+                    <img  width="100" height="100" src='<%# Eval("Immagine") %>' alt="Product Image" />
                     <p><%# Eval("Nome") %></p>
                     <div class="d-flex mb-2 align-items-baseline">
                         <p class="d-flex me-1"><%# Eval("Prezzo") %>€</p>
