@@ -20,7 +20,7 @@
             </ItemTemplate>
         </asp:Repeater>
     </ul>
-    <asp:Button ID="btnClearSession" runat="server" Text="Svuota Carrello" OnClick="btnClearSession_Click" CssClass="btn btn-danger ms-5" />
+    <asp:Button ID="btnClearSession" runat="server" Text="Svuota Carrello" OnClick="btnClearSession_Click" CssClass="btn btn-outline-danger ms-5" />
     <div id="contentTot" runat="server" class="my-5 mx-5"></div>
 
 
